@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Noto Serif KR', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    background-color: #FDFCF9;
+    color: #2D2D2D;
+  }
+
+  h1, h2, h3, .font-serif-kr {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbar matching Natural Tones palette */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F2EDE4;
+}
+::-webkit-scrollbar-thumb {
+  background: #DED7CD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2D3E30;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}

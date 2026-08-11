@@ -1,0 +1,6 @@
+{
+  "name": "백가원 김치 | Baekgawon Premium Kimchi Heritage & Distribution",
+  "description": "오설록 감성의 프리미엄 전통 김치 제조업 및 유통 기업 웹사이트. 브랜드 스토리, 시그니처 김치 라인업, 맞춤 김치 추천, HACCP 클린 공정, 계절별 김치 아카이브 & 블로그, B2B 대량유통 샘플 견적 문의 제공.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
